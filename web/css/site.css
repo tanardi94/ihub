@@ -1,0 +1,224 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.iwreport table {
+    margin-top: 30px;
+}
+.iwreport table td {    
+    border: solid 1px #000 !important;
+    vertical-align: middle !important;
+}
+.iwreport table tr {    
+    border: solid 1px #000 !important;
+}
+.iwreport table th{
+    background: #d9d9d9;
+    text-align: center;
+    vertical-align: middle !important;
+    border: solid 1px #000 !important;
+}
+.iwreport table .row-note{
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #daedf2;
+    font-style: italic;
+}
+.cell-jemaat-pria {
+    background: #8db4e0;
+}
+.cell-jemaat-pria-total {
+    background: #538dd4;
+    font-weight: bold;
+}
+.cell-jemaat-wanita {
+    background: #e6b8b8;
+}
+.cell-jemaat-wanita-total {
+    background: #d99593;
+    font-weight: bold;
+}
+.iwreport table .col-note {
+    text-transform: uppercase;
+}
+.cell-volunteer {
+    background: #fad3b4;
+}
+.cell-volunteer-total {
+    background: #ffbf00;
+    font-weight: bold;
+}
+.cell-streaming {
+    background: #c4d69c;
+}
+.cell-streaming-total {
+    background: #92cf51;
+    font-weight: bold;
+}
+.row-note-total-per-item {
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #93cddb;
+    font-style: italic;
+}
+.cell-per-jemaat {
+    background: #ccc1d9;
+}
+.cell-per-jemaat-total {
+    background: #b1a1c7;
+    font-weight: bold;
+}
+.cell-per-volunteer {
+    background: #fad3b4;
+}
+.cell-per-volunteer-total {
+    background: #ffbf00;
+    font-weight: bold;
+}
+.cell-per-streaming {
+    background: #c4d69c;
+}
+.cell-per-streaming-total {
+    background: #92cf51;
+    font-weight: bold;
+}
+.col-note-total-kehadiran {    
+    text-align: left;
+}
+.row-total-kehadiran {
+    background: #00b0f0;
+    text-align: center;
+    font-weight: bold;
+}
+.col-note-grand-total {    
+    text-align: left;
+}
+.row-grand-total {
+    background: #ffff00;
+    text-align: center;
+    font-weight: bold;
+}
+
+@font-face {
+  font-family: 'nidsans-webfont';
+  src: url('absence/nidsans-webfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu-R';
+  src: url('absence/Ubuntu-R.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'digital-7 (italic)';
+  src: url('absence/digital-7 (italic).ttf') format('truetype');
+}
